@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 exports.seed = function(knex, Promise) {
   return knex('posts').insert([
     {
